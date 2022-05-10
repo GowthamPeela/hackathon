@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Comforter&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Dosis:wght@200&family=Fira+Sans&family=Gideon+Roman&family=Heebo:wght@200&family=Italiana&family=Josefin+Slab:wght@100&family=Lato:ital,wght@0,300;1,300&family=Libre+Bodoni:ital@1&family=Lora:wght@500&family=Montserrat:wght@200;300;400&family=Nunito:ital,wght@0,500;1,200&family=Open+Sans&family=Oswald:wght@300;500&family=PT+Sans:ital@0;1&family=Radio+Canada:wght@300;400&family=Raleway:wght@200;500&family=Redressed&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500&family=Roboto+Mono:wght@100;400&family=Smooch+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Comforter&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Dosis:wght@200&family=Fira+Sans&family=Gideon+Roman&family=Heebo:wght@200&family=Inter:wght@200&family=Italiana&family=Josefin+Slab:wght@100&family=Lato:ital,wght@0,300;1,300&family=Libre+Bodoni:ital@1&family=Lora:wght@500&family=Montserrat:wght@200;300;400&family=Nunito:ital,wght@0,500;1,200&family=Open+Sans&family=Oswald:wght@300;500&family=PT+Sans:ital@0;1&family=Radio+Canada:wght@300;400&family=Raleway:wght@200;500&family=Redressed&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500&family=Roboto+Mono:wght@100;300;400&family=Smooch+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Comforter&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Dosis:wght@200&family=Fira+Sans&family=Gideon+Roman&family=Heebo:wght@200&family=Inter:wght@200&family=Italiana&family=Josefin+Slab:wght@100&family=Lato:ital,wght@0,300;1,300&family=Libre+Bodoni:ital@1&family=Lora:wght@500&family=Montserrat:wght@200;300;400&family=Nunito:ital,wght@0,500;1,200&family=Open+Sans&family=Oswald:wght@300;500&family=PT+Sans:ital@0;1&family=Poppins:wght@200&family=Radio+Canada:wght@300;400&family=Raleway:wght@200;500&family=Redressed&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500&family=Roboto+Mono:wght@100;300;400&family=Smooch+Sans:wght@200;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top h1
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.mega
+{
+    display: flex;
+}
+
+.total
+{
+    /* display: flex;
+    width: 80%;
+    height: 45%;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 60px; */
+    display: flex;
+    margin-top: 4%; 
+    margin-left: 5% ;
+    gap: 2rem;
+}
+.city
+{
+
+    width: 5%;
+    height: 50%;
+    
+    gap: 5rem;
+}
+.city img{
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+}
+.down
+{
+    background-color: red;
+    width: 100%;
+    height: 30vh;
+    /* position: relative; */
+    bottom: 10px;
+    /* border-radius: 20px; */
+  
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+.down h1
+{
+    margin-left: 20px;
+    position: relative;
+    top: 45px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.down p
+{
+    position: relative;
+    top: 55px;
+    left: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.data
+{
+    border-radius: 20px;
+}
+#first
+{
+    background-color: rgb(250, 81, 109);
+}
+#second
+{
+    background-color: rgb(218, 97, 28);
+}
+#three
+{
+    background-color: rgb(197, 45, 70);
+}
+#four
+{
+    background-color: rgb(143, 27, 27);
+}
